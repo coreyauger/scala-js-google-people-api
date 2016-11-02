@@ -7,7 +7,6 @@ sonatypeSettings
 lazy val root = project.in(file("."))
   .enablePlugins(ScalaJSPlugin)
   .settings(
-
 	  credentials += Credentials(Path.userHome / ".ivy2" / ".credentials"),
 	  resolvers += "NextWave Repo" at "http://maxdevmaster.cloudapp.net:4343/artifactory/nxtwv-maven/",
 	  publishTo := Some("NextWave Repo" at "http://maxdevmaster.cloudapp.net:4343/artifactory/nxtwv-maven/"),
