@@ -1,8 +1,8 @@
-import SonatypeKeys._
+//import SonatypeKeys._
 
 import sbt.Keys._
 
-sonatypeSettings
+//sonatypeSettings
 
 lazy val root = project.in(file("."))
   .enablePlugins(ScalaJSPlugin)
@@ -27,7 +27,7 @@ organization := "io.surfkit"
 scalaVersion := "2.11.6"
 
 crossScalaVersions := Seq("2.10.4", "2.11.5")
-
+/*
 libraryDependencies ++= Seq(
   "org.scala-js" %%% "scalajs-dom" % "0.9.0"
 )
@@ -65,4 +65,5 @@ pomExtra := (
 )
 
 pomIncludeRepository := { _ => false }
+*/
 
