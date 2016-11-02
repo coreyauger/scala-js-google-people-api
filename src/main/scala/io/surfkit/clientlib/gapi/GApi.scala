@@ -1,7 +1,5 @@
 package io.surfkit.clientlib.gapi
 
-import io.surfkit.clientlib.gapi.gapi.client.HttpRequest
-
 import scala.concurrent.{Promise, Future}
 import scala.scalajs.js
 import js.annotation._

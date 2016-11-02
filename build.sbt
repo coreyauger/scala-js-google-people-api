@@ -20,7 +20,7 @@ name := "Type safe and scala friendly wrapper around google people api"
 
 normalizedName := "scala-js-google-people-api"
 
-version := "0.0.1-SNAPSHOT"
+version := "0.0.1"
 
 organization := "io.surfkit"
 
